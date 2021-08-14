@@ -93,7 +93,7 @@ padding-right : 20%;
 overflow: auto;
 }
 img { padding-left: 10px;
-      padding-right: 10px;
+	padding-right: 10px; }
 #mobile {display: none;}
 #desktop {display: inline;}
 table{width:90%; margin: auto;
