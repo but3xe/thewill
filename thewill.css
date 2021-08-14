@@ -94,13 +94,6 @@ overflow: auto;
 }
 img { padding-left: 10px;
       padding-right: 10px;
-}
-#heroroad {background-image: url(hero.jpg);
-background-size: 100%; height: 250px; }
-#heromugs {background-image: url(mugs.jpg);
-background-size: 100%; height: 250px; }
-#heroguitar {background-image: url(guitar.jpg);
-background-size: 100%; height: 250px; }
 #mobile {display: none;}
 #desktop {display: inline;}
 table{width:90%; margin: auto;
