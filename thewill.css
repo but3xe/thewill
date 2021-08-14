@@ -1,0 +1,174 @@
+* {
+box-sizing: content-box;
+}
+header, nav, main, footer {
+display : block;
+}
+body {
+background-color : #808080;
+background-image : url(gameover.jpg);
+background-repeat : no-repeat;
+background-size : cover;
+background-attachment : fixed;
+color : #000000;
+font-family : Verdana;
+}
+#wrapper {
+background-color : #808080;
+margin-left : auto;
+margin-right : auto;
+margin-bottom : auto;
+width : 100%;
+min-width : 900px;
+max-width : 2560px;
+box-shadow : 3px 3px 3px #000000;
+}
+header {
+background-color : #A9A9A9;
+height: 85px;
+background-repeat: no-repeat;
+color : #000000;
+text-align : center;
+padding-top : 5px;
+padding-bottom : 5px;
+}
+p {text-align: center;}
+h1 {
+font-size : 2.25em;
+}
+h2 {
+color : #000000;
+text-align: center;
+}
+h3, dt {
+color : #000000;
+}
+h4 {
+background-color : #DCDCDC;
+font-size : 1.2em;
+padding-left : 0.5em;
+padding-bottom : 0.25em;
+text-transform : uppercase;
+}
+nav {
+font-weight : bold;
+text-align : right;
+font-size : 1.4em;
+padding-top : 0px;
+padding-bottom : 5px;
+float : right;
+width : 180px;
+}
+nav a {
+text-decoration : none;
+}
+nav a:link {
+color : #800000;
+}
+nav a:visited {
+color : #B22222;
+}
+nav a:hover {
+color : #CC9933;
+}
+nav ul {
+list-style-type : none;
+padding-left : 0;
+}
+main {
+display : block;
+padding-left : 0em;
+padding-right : 0em;
+padding-bottom : 0em;
+display : block;
+margin-left : 105px;
+margin-right : 105px;
+margin-top : 60px;
+padding-top : 0;
+background-color : #DCDCDC;
+}
+.details {
+padding-left : 20%;
+padding-right : 20%;
+overflow: auto;
+}
+img { padding-left: 10px;
+      padding-right: 10px;
+}
+#heroroad {background-image: url(hero.jpg);
+background-size: 100%; height: 250px; }
+#heromugs {background-image: url(mugs.jpg);
+background-size: 100%; height: 250px; }
+#heroguitar {background-image: url(guitar.jpg);
+background-size: 100%; height: 250px; }
+#mobile {display: none;}
+#desktop {display: inline;}
+table{width:90%; margin: auto;
+border-spacing: 0;
+background-color: #000000;}
+th, td {padding: 10px;}
+tr:nth-of-type(odd) {background-color: #d2B48C; }
+
+form {padding: 2em;}
+label {float: left; display: block; text-align: right; width: 8em; padding-right: 1em;}
+input, textarea { display: block; margin-bottom: 1em;}
+#mySubmit {margin-left: 9.5em;}
+
+@media only screen and (max-width: 1024px) {
+	body {margin: 0; background-image: none;}
+	#wrapper {width: auto; min-width: 0; margin: 0;
+	padding: 0; box-shadow: none;}
+	header {border-bottom: 5px solid #fef6c2;}
+	h1 {margin-top: 0; margin-bottom: 1em; padding-top: 1em;
+	padding-bottom: 1em; font-size: 2.5em; }
+	nav {float: none; width: auto; padding-top: 0; margin: 10px; font-size: 1.3em;}
+	nav li {display: inline-block;}
+	nav a {padding: 1em; width: 8em; font-weight: bold; border-style: none;}
+	nav ul { padding: 0; margin: 0;}
+	#heroroad, #heromugs, #heroguitar, { padding: 0; margin: 0;}
+	main {padding: 0; margin: 0; font-size: 90%;}
+}
+@media only screen and (max-width: 768px) {
+	header { background-image: url(javajammini.jpg);
+	height: 128px; }
+	h1 { font-size: 2em;
+	text-align: center;
+	padding-left: 0; }
+	nav {margin: 0;}
+	nav a {display: block;
+	padding: 0.2em;
+	width: auto;
+	border-bottom: 1px solid #FEF6C2; }
+	nav li {display: block;}
+	main {padding-top: 1px; }
+	h2 { padding: 0.5em 0 0 0.5em;
+	margin-right: 0.5em; }
+	.details { padding-left: 0; padding-right: 0; }
+	#heroroad, #heromugs, #heroguitar { background-image: none; height: auto; }
+	.floatleft { padding-left: 0.5em; padding-right: 0.5em; }
+	#mobile {display: inline; }
+	#desktop { display: none; }
+}
+footer {
+background-color : #696969;
+font-size : 0.60em;
+font-style : italic;
+text-align : center;
+padding-bottom : 1em;
+border-top : 2px solid #000000;
+}
+main h2, main h3, main h4, main p, main div, main ul, main dl {
+padding-left : 3em;
+padding-right : 2em;
+}
+.floatright {
+float : right;
+padding-right : 20px;
+padding-bottom : 20px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
